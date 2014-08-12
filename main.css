@@ -7,14 +7,42 @@
 }*/
 
 #landing {
-	background-image: url('poetry.png');
-	background-color: blue;
-	height: 700px;
+	/*background-image: url('poetry.png');*/
+	/*background-color: blue;*/
+	height: 600px;
 	width: 100%;
 	margin-top: -175px;
 }
 
 
+.landing-image {
+	width: 100%;
+	/*position: relative;*/
+}
+
+.social {
+	margin-top: 70px;
+	/*float: right;*/
+}
+
+.title-ribbon {
+	margin-top: -500px;
+}
+
+.ribbon {
+	width: 25%;
+	height: 25%;
+}
+
+.icon {
+	height: 8%;
+	width: 8%;
+	display: block;
+	/*negative margin added to address shadow effect 
+	unseen because of black background. Rather than 
+	fix in Photoshop*/
+	margin-top: -4%;
+}
 
 .honeycomb {
 	background-color: black;
@@ -28,7 +56,7 @@
 
 .about-header-box {
 	width: 80%;
-	height: 80px;
+	height: 50px;
 	margin-left: 10%;
 	margin-top: -20px;
 	color: white;
@@ -40,11 +68,11 @@
 .about-me {
 	background-color: #bdc3c7;
 	height: 450px;
-	width: 60%;
+	width: 80%;
 	margin-top: -50px;
 	position: absolute;
 	text-align: center;
-	margin-left: 20%;
+	margin-left: 10%;
 	/*margin-right: auto;*/
 	display: inline-block;
 	border-radius: 10px;
@@ -53,19 +81,20 @@
 
 
 .contact {
-	background-color: #ecf0f1;
+	background-color: black;
 	height: 420px;
 	width: 100%;
 
 }
 
 .languages {
-	background-color: #ecf0f1;
+	background-color: black;
 	height: 300px;
 	width: 100%
 }
 
 footer {
 	background-color: #7f8c8d;
-	height: 100px;
+	height: 20px;
+	text-align: right;
 }
