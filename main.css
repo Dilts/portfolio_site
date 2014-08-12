@@ -1,0 +1,71 @@
+/*#landing {
+	background-image: url('http://www.bayesianconspiracy.com/wp-content/uploads/2013/02/wallpaper-1171196-1024x576.jpg');
+	position: fixed;
+	height: 800px;
+	width: 100%;
+	vertical-align: middle;
+}*/
+
+#landing {
+	background-image: url('poetry.png');
+	background-color: blue;
+	height: 700px;
+	width: 100%;
+	margin-top: -175px;
+}
+
+
+
+.honeycomb {
+	background-color: black;
+	height: 460px;
+	width: 100%;
+}
+
+.honeycombs {
+	margin-top: -75px;
+}
+
+.about-header-box {
+	width: 80%;
+	height: 80px;
+	margin-left: 10%;
+	margin-top: -20px;
+	color: white;
+	background-color: #7f8c8d;
+	border-radius: 3px;
+	box-shadow: 2px 5px 5px grey;
+}
+
+.about-me {
+	background-color: #bdc3c7;
+	height: 450px;
+	width: 60%;
+	margin-top: -50px;
+	position: absolute;
+	text-align: center;
+	margin-left: 20%;
+	/*margin-right: auto;*/
+	display: inline-block;
+	border-radius: 10px;
+
+}
+
+
+.contact {
+	background-color: #ecf0f1;
+	height: 420px;
+	width: 100%;
+
+}
+
+.languages {
+	background-color: #ecf0f1;
+	height: 300px;
+	width: 100%
+}
+
+footer {
+	background-color: #7f8c8d;
+	height: 100px;
+}
