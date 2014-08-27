@@ -116,27 +116,14 @@
 #pic{}
 
 .wrapper {
-/*	background-image: url('poetry.png');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:top;*/
-	/*position: fixed;*/
+
 	height: 400px;
 	width: 100%;
 }
 
 
 #hero-container {
-	/*background-image: url('poetry.png');
-	background-repeat:no-repeat;
-	background-size: 100%;
-	background-position:top;*/
-
-	/*position: fixed;*/
 	height: 400px;
-	/*width: 100%;*/
-	
-
 }
 
 .landing-image {
@@ -182,41 +169,37 @@
 }
 
 .honeycomb {
-	/*background-color: black;*/
 	height: 460px;
 	width: 100%;
-	/*margin-top: 20%;*/
-
 }
 
-.honeycombs {
-	/*margin-top: -75px;*/
-}
 
 .about-header-box {
-	width: 80%;
+	width: 60%;
 	height: 50px;
-	margin-left: 10%;
-	margin-top: -20px;
+	margin-left: 20%;
+	/*margin-top: -20px;*/
 	color: white;
 	background-color: #7f8c8d;
 	border-radius: 3px;
 	box-shadow: 2px 5px 5px grey;
+	z-index: -1;
 }
 
 .about-me {
 	background-color: #bdc3c7;
 	height: 450px;
 	width: 80%;
-	margin-top: -50px;
+	/*margin-top: -50px;*/
 	position: absolute;
 	text-align: center;
 	margin-left: 10%;
-	/*margin-right: auto;*/
 	display: inline-block;
 	border-radius: 10px;
-
+	padding: 5px;
+	overflow: auto;
 }
+
 
 
 .contact {
@@ -230,6 +213,10 @@
 	background-color: black;
 	height: 300px;
 	width: 100%
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
 footer {
